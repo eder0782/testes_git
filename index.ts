@@ -2,4 +2,4 @@ import { hello } from "./teste";
 
 
 
-console.log(hello('Eder'));
+console.log(hello('Eder',30));

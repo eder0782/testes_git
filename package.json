@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"  && echo \"TESTE DE VÁRIOS COMANDOS\" ",
+    "dev": "npx tsc && node ./bin/index.js",
+    "server": "node ./bin/index.js",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint --fix ."
   }
 }
